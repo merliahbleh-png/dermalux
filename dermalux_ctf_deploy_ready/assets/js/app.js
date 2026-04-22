@@ -1,0 +1,1 @@
+var a = 'Y29va2llX2hhbmRsZXI='; console.log(atob(a));
