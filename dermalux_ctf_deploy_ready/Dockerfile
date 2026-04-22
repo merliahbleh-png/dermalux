@@ -5,4 +5,4 @@ RUN docker-php-ext-install mysqli
 WORKDIR /app
 COPY . /app
 
-CMD sh -c "php -S 0.0.0.0:${PORT:-8080} -t /app"
+CMD sh -c "php -S 0.0.0.0:${PORT:-8080} -t /app/dermalux_ctf_deploy_ready"
